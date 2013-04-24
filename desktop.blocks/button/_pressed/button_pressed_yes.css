@@ -1,6 +1,5 @@
-@media all and (min-width:0px) {
-    .button_pressed_yes .button__text
-    {
-        top: 1px;
-    }
+/* Убираем сдвиг текста при нажатии в опере на десктопных браузерах. 8842 */
+.button_pressed_yes.button_theme_pseudo
+{
+    -o-transform: translateX(0);
 }
