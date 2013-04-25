@@ -4,7 +4,6 @@
         display: block;
 
         padding-top: 0.4em;
-        padding-right: 1px;
         padding-bottom: 1px;
 
         vertical-align: baseline;
@@ -21,9 +20,11 @@
         padding-top: 0.44em;
     }
 
+
+    /* Set height for clear by line-height */
     .input_type_textarea .input__clear
     {
-        display: none;
+        bottom: auto;
     }
 }
 
@@ -45,3 +46,12 @@ body .input_type_textarea .input__control
     min-height: 2em;
 }
 
+.input_type_textarea.input_size_s .input__control
+{
+    padding-right: 37px;
+}
+
+.input_type_textarea.input_size_m .input__control
+{
+    padding-right: 41px;
+}
