@@ -46,12 +46,13 @@ body .input_type_textarea .input__control
     min-height: 2em;
 }
 
+/* padding right for textarea by input__clear width */
 .input_type_textarea.input_size_s .input__control
 {
-    padding-right: 37px;
+    padding-right: 27px;
 }
 
 .input_type_textarea.input_size_m .input__control
 {
-    padding-right: 41px;
+    padding-right: 31px;
 }
