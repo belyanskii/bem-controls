@@ -21,7 +21,7 @@
     }
 
 
-    /* Set height for clear by line-height */
+    /* Set auto bottom for clear in textarea */
     .input_type_textarea .input__clear
     {
         bottom: auto;
@@ -55,4 +55,15 @@ body .input_type_textarea .input__control
 .input_type_textarea.input_size_m .input__control
 {
     padding-right: 31px;
+}
+
+/* height for input clear */
+.input_type_textarea.input_size_s .input__clear
+{
+    height: 27px;
+}
+
+.input_type_textarea.input_size_m .input__clear
+{
+    height: 31px;
 }
